@@ -16,6 +16,9 @@ with open("payments.jsonl") as f:
             total += float(event["amount"])
             count += 1
 
+
+            
+
 with open("expected.txt") as f:
     expected = int(f.read().strip())
 
